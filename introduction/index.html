@@ -6,7 +6,7 @@
     <script src="../js/mdui.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage - Banson</title>
+    <title>个人简介 - Banson</title>
     <script type="text/javascript">
         function PageReload() {
             window.location.reload()
@@ -36,11 +36,11 @@
     <div class="mdui-drawer" id="left-drawer">
         <ul class="mdui-list">
             <a href="../index.html" class="mdui-list-item mdui-ripple">
-                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-red">home</i>
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">home</i>
                 <div class="mdui-list-item-content">主页</div>
             </a>
             <a href="./index.html" class="mdui-list-item mdui-ripple mdui-list-item-active">
-                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">person</i>
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-red">person</i>
                 <div class="mdui-list-item-content">个人简介</div>
             </a>
             <li class="mdui-list-item mdui-ripple">
@@ -62,7 +62,6 @@
     <div class="mdui-container mdui-p-t-5 mdui-p-b-5">
         <div class="mdui-row">
             <div class="mdui-col-xs-6">
-
                 <div class="mdui-card mdui-ripple mdui-m-t-2 mdui-m-b-2">
                     <!-- 卡片头部，包含头像、标题、副标题 -->
                     <div class="mdui-card-header">
@@ -73,7 +72,7 @@
                     <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
                     <div class="mdui-card-media">
                         <!--TODO: add photos here-->
-                        <img src="../img/hasy.jpg">
+                        <img src="./img/hasy.jpg">
                     </div>
 
                     <!-- 卡片的标题和副标题 -->
@@ -84,7 +83,6 @@
 
                     <!-- 卡片的内容 -->
                     <div class="mdui-card-content"></div>
-
                 </div>
 
                 <div class="mdui-card mdui-ripple mdui-m-t-2 mdui-m-b-2">
@@ -97,22 +95,26 @@
                     <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
                     <div class="mdui-card-media">
                         <!--TODO: add photos here-->
-                        <img src="../img/backgroud_star.jpg">
-
-                        <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
+                        <img src="./img/bk.jpg">
+                        <div class="mdui-card-media-covered">
                             <div class="mdui-card-primary">
-                                <div class="mdui-card-primary-title">兴趣爱好</div>
-                            </div>
-                            <!-- 卡片的内容 -->
-                            <div class="mdui-card-content">
-
+                                <div class="mdui-card-primary-title">2019年夏</div>
+                                <div class="mdui-card-primary-subtitle">与大家相遇</div>
                             </div>
                         </div>
                     </div>
 
 
-                </div>
+                    <!-- 卡片的标题和副标题 -->
+                    <div class="mdui-card-primary">
+                        <div class="mdui-card-primary-title">我喜爱的美食</div>
+                        <div class="mdui-card-primary-subtitle">（汉堡王戒不掉了算）</div>
+                    </div>
 
+                    <!-- 卡片的内容 -->
+                    <div class="mdui-card-content"></div>
+
+                </div>
             </div>
 
 
@@ -127,7 +129,7 @@
                     <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
                     <div class="mdui-card-media">
                         <!--TODO: add photos here-->
-                        <img src="../img/hust.jpg">
+                        <img src="./img/hust.jpg">
                         <div class="mdui-card-media-covered">
                             <div class="mdui-card-primary">
                                 <div class="mdui-card-primary-title">2019年夏</div>
@@ -145,9 +147,47 @@
 
                     <!-- 卡片的内容 -->
                     <div class="mdui-card-content"></div>
+                </div>
 
+                <div class="mdui-card mdui-ripple mdui-m-t-2 mdui-m-b-2">
+                    <!-- 卡片头部，包含头像、标题、副标题 -->
+                    <div class="mdui-card-header">
+                        <img src="../img/good_thumb.jpg" class="mdui-card-header-avatar" />
+                        <div class="mdui-card-header-title">徐梓晨</div>
+                    </div>
+
+                    <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
+                    <div class="mdui-card-media">
+                        <!--TODO: add photos here-->
+                        <img src="./img/backgroud_star.jpg">
+
+                        <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
+                            <div class="mdui-card-primary">
+                                <div class="mdui-card-primary-title">兴趣爱好</div>
+                                <!-- 卡片的内容 -->
+                                <div class="mdui-card-content">
+                                    <p class="mdui-typo-body-2">
+                                        搞一点运动
+                                    </p>
+                                    <p class="mdui-typo-body-2">
+                                        搞一点程序
+                                    </p>
+                                    <p class="mdui-typo-body-2">
+                                        搞一点算法
+                                    </p>
+                                    <p class="mdui-typo-body-2">
+                                        搞一点呲牙
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
+
         </div>
     </div>
 
