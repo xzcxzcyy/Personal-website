@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/mdui.css">
+    <link rel="stylesheet" href="../css/jquery.fullpage.css">
+    <script src="../js/mdui.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>工具 - Banson</title>
+    <script type="text/javascript">
+        function PageReload() {
+            window.location.reload()
+        }
+    </script>
+</head>
+
+
+
+<body
+    class="mdui-theme-primary-red mdui-theme-accent-blue-accent mdui-m-l-3 mdui-m-r-3 mdui-appbar-with-toolbar mdui-drawer-body-left">
+    <!-- mdui-theme-layout-dark-->
+    <div class="mdui-appbar mdui-appbar-fixed">
+        <div class="mdui-toolbar mdui-color-theme">
+            <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#left-drawer'}">
+                <i class="mdui-icon material-icons">menu</i>
+            </a>
+            <a href="../index.html" class="mdui-typo-title">Banson's Site</a>
+            <div class="mdui-toolbar-spacer"></div>
+            <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '刷新'}" onclick="PageReload()">
+                <i class="mdui-icon material-icons">refresh</i>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="mdui-drawer" id="left-drawer">
+        <ul class="mdui-list">
+            <a href="../index.html" class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue-a200">home</i>
+                <div class="mdui-list-item-content">主页</div>
+            </a>
+            <a href="../introduction/index.html" class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue-a200">person</i>
+                <div class="mdui-list-item-content">个人简介</div>
+            </a>
+            <li class="mdui-list-item mdui-ripple  mdui-list-item-active">
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-red">folder</i>
+                <div class="mdui-list-item-content">工具</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue-a200">local_cafe</i>
+                <div class="mdui-list-item-content">轻松一刻</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue-a200">info</i>
+                <div class="mdui-list-item-content">关于</div>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="mdui-container mdui-p-t-5 mdui-p-b-5">
+        <div class="mdui-row">
+            <div class="mdui-col-xs-11 mdui-col-offset-xs-1">
+                <div class="mdui-card mdui-m-t-2 mdui-m-b-2 mdui-shadow-5 mdui-hoverable">
+                    <!-- 卡片的标题和副标题 -->
+                    <div class="mdui-card-primary">
+                        <div class="mdui-card-primary-title">在线小工具集合</div>
+                        <div class="mdui-card-primary-subtitle">无需下载安装，用完即走</div>
+                    </div>
+                    <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
+                    <div class="mdui-card-media mdui-m-t-1 mdui-m-b-1 mdui-m-l-1 mdui-r-2 mdui-ripple">
+                        <!--TODO: add photos here-->
+                        <img src="./img/nicetool.jpg">
+                    </div>
+                    <!-- 卡片的内容 -->
+                    <div class="mdui-card-content">
+                        <div class="mdui-typo">
+                            <p>
+                                <a href="http://www.nicetool.net/">NiceTool</a>
+                                是一个在线工具网站，所有工具无需下载安装即可在线使用。从PDF操作等办公实用工具到垃圾分类查询等生活小工具，从视频剪辑工具到在线高精度计算器，该网站解决了很多不大不小的“痛点”，让学习、办公、生活更加轻松。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mdui-row">
+            <div class="mdui-col-xs-11 mdui-col-offset-xs-1">
+                <div class="mdui-card mdui-m-t-2 mdui-m-b-2 mdui-shadow-5 mdui-hoverable">
+                    <!-- 卡片的标题和副标题 -->
+                    <div class="mdui-card-primary">
+                        <div class="mdui-card-primary-title">Complier Explorer</div>
+                        <div class="mdui-card-primary-subtitle">遇到了问题? 单走一个汇编！</div>
+                    </div>
+                    <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
+                    <div class="mdui-card-media mdui-m-t-1 mdui-m-b-1 mdui-m-l-1 mdui-r-2 mdui-ripple">
+                        <!--TODO: add photos here-->
+                        <img src="./img/compiler_explorer.jpg">
+                    </div>
+                    <!-- 卡片的内容 -->
+                    <div class="mdui-card-content">
+                        <div class="mdui-typo">
+                            <p>
+                                <a href="https://godbolt.org/">Complier Explorer</a>
+                                是一个可以在线对照查看代码和汇编的工具网站。当奇奇怪怪的问题发生的时候，不妨把代码贴过来看看吧！
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mdui-row">
+            <div class="mdui-col-xs-11 mdui-col-offset-xs-1">
+                <div class="mdui-card mdui-m-t-2 mdui-m-b-2 mdui-shadow-5 mdui-hoverable">
+                    <!-- 卡片的标题和副标题 -->
+                    <div class="mdui-card-primary">
+                        <div class="mdui-card-primary-title">Ubuntu Pastebin</div>
+                        <div class="mdui-card-primary-subtitle">想和朋友分享你的代码吗？</div>
+                    </div>
+                    <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
+                    <div class="mdui-card-media mdui-m-t-1 mdui-m-b-1 mdui-m-l-1 mdui-r-2 mdui-ripple">
+                        <!--TODO: add photos here-->
+                        <img src="./img/ubuntu_pastebin.jpg">
+                    </div>
+                    <!-- 卡片的内容 -->
+                    <div class="mdui-card-content">
+                        <div class="mdui-typo">
+                            <p>
+                                <a href="https://paste.ubuntu.com/">Ubuntu Pastebin</a>
+                                允许你自由地上传代码并生成自己的链接。将这些链接发给朋友，向他们分享你的代码吧！
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
